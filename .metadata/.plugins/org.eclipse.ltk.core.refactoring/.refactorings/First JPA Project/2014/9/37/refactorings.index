@@ -1,7 +1,0 @@
-1410543993824	Extract local variable 'entityManagerFactory'
-1410544024576	Extract local variable 'entityManager'
-1410544175900	Move folder
-1410544669640	Rename resource 'persistence.xml'
-1410545145602	Rename resource 'persistencee.xml'
-1410548118974	Copy folder
-1410548142266	Copy package
