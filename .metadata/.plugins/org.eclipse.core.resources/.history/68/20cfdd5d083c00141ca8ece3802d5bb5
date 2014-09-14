@@ -1,0 +1,114 @@
+package info.owczarek.jpa.domain;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class PossibleFields {
+	@Id
+	private long id;
+	private String someString;
+	private int someInt;
+	private float someFloat;
+	private double someDouble;
+	private short someShort;
+	private char someChar;
+	private boolean someBoolean;
+	
+	private Integer someInteger;
+	private Double someDoubleWrapper;
+	
+	private int[] intTable;
+	
+	
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getSomeString() {
+		return someString;
+	}
+
+	public void setSomeString(String someString) {
+		this.someString = someString;
+	}
+
+	public int getSomeInt() {
+		return someInt;
+	}
+
+	public void setSomeInt(int someInt) {
+		this.someInt = someInt;
+	}
+
+	public float getSomeFloat() {
+		return someFloat;
+	}
+
+	public void setSomeFloat(float someFloat) {
+		this.someFloat = someFloat;
+	}
+
+	public double getSomeDouble() {
+		return someDouble;
+	}
+
+	public void setSomeDouble(double someDouble) {
+		this.someDouble = someDouble;
+	}
+
+	public short getSomeShort() {
+		return someShort;
+	}
+
+	public void setSomeShort(short someShort) {
+		this.someShort = someShort;
+	}
+
+	public char getSomeChar() {
+		return someChar;
+	}
+
+	public void setSomeChar(char someChar) {
+		this.someChar = someChar;
+	}
+
+	public boolean isSomeBoolean() {
+		return someBoolean;
+	}
+
+	public void setSomeBoolean(boolean someBoolean) {
+		this.someBoolean = someBoolean;
+	}
+
+	public Integer getSomeInteger() {
+		return someInteger;
+	}
+
+	public void setSomeInteger(Integer someInteger) {
+		this.someInteger = someInteger;
+	}
+
+	public Double getSomeDoubleWrapper() {
+		return someDoubleWrapper;
+	}
+
+	public void setSomeDoubleWrapper(Double someDoubleWrapper) {
+		this.someDoubleWrapper = someDoubleWrapper;
+	}
+
+	public int[] getIntTable() {
+		return intTable;
+	}
+
+	public void setIntTable(int[] intTable) {
+		this.intTable = intTable;
+	}
+	
+	
+}

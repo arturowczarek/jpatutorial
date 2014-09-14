@@ -1,0 +1,3 @@
+1410612472411	Extract local variable 'entityManagerFactory'
+1410612534263	Extract local variable 'entityManager'
+1410616113786	Copy package

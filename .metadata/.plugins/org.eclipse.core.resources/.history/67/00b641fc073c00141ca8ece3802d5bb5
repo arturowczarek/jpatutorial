@@ -1,0 +1,5 @@
+package info.owczarek.jpa.domain;
+
+public class PossibleFields {
+
+}
